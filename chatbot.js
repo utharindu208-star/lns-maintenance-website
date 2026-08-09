@@ -6,7 +6,7 @@
    ============================================================
 
    >>> SETUP (one-time, by the business owner):
-   1. Go to https://web3forms.com, enter info@lnsmaintenanceservices.com.au,
+   1. Go to https://web3forms.com, enter admin@lnsmaintenanceservices.com.au,
       and copy the free Access Key they email you.
    2. Paste it below as WEB3FORMS_ACCESS_KEY.
    That's it — enquiries (and photos) will be emailed to that address.
@@ -17,7 +17,7 @@
 
   var CONFIG = {
     WEB3FORMS_ACCESS_KEY: "YOUR-WEB3FORMS-ACCESS-KEY", // <-- paste your Web3Forms key here
-    BUSINESS_EMAIL: "info@lnsmaintenanceservices.com.au",
+    BUSINESS_EMAIL: "admin@lnsmaintenanceservices.com.au",
     BUSINESS_PHONE_DISPLAY: "0424 120 509",
     BUSINESS_PHONE_TEL: "+61424120509",
     MAX_PHOTOS: 4,
