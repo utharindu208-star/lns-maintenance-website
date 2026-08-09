@@ -5,18 +5,18 @@
    - Emails the enquiry + photos to the business via Web3Forms
    ============================================================
 
-   >>> SETUP (one-time, by the business owner):
-   1. Go to https://web3forms.com, enter admin@lnsmaintenanceservices.com.au,
-      and copy the free Access Key they email you.
-   2. Paste it below as WEB3FORMS_ACCESS_KEY.
-   That's it — enquiries (and photos) will be emailed to that address.
-   Until a key is set, the bot falls back to opening the visitor's email app.
+   >>> DELIVERY: enquiries (and photos) are emailed via Web3Forms to
+   admin@lnsmaintenanceservices.com.au — the address the access key below is
+   registered to. On the Web3Forms free plan mail goes ONLY to that registered
+   address, so changing BUSINESS_EMAIL alone will NOT redirect enquiries; a new
+   key must be generated from an account on the new address.
+   If the key is ever cleared, the bot falls back to opening the visitor's email app.
 */
 (function () {
   "use strict";
 
   var CONFIG = {
-    WEB3FORMS_ACCESS_KEY: "YOUR-WEB3FORMS-ACCESS-KEY", // <-- paste your Web3Forms key here
+    WEB3FORMS_ACCESS_KEY: "3236d03d-584f-4f1d-80d7-b7963b5753cb", // Web3Forms key registered to admin@ — enquiries are delivered there
     BUSINESS_EMAIL: "admin@lnsmaintenanceservices.com.au",
     BUSINESS_PHONE_DISPLAY: "0424 120 509",
     BUSINESS_PHONE_TEL: "+61424120509",
